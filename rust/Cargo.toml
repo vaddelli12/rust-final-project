@@ -1,0 +1,21 @@
+[package]
+name = "rust-final-project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+csv = "1.3.0"
+lazy_static = "1.5.0"
+polars = { git = "https://github.com/pola-rs/polars", features = ["lazy", "strings", "csv"] }
+serde = {version = "1.0.203", features = ["derive"]}
+serde_json = "1.0.119"
+tokio = { version = "1.38.0", features = ["full"] }
+tokio-postgres = "0.7.10"
+
+[dev-dependencies]
+tempfile = "3.10.1"
+tokio-test = "0.4.4"
+
+[features]
+default = ["polars/default"]

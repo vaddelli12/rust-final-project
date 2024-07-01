@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["cleardb","connect_db","create_table","get_and_print_first_records","insert_movies","process_movies"]};

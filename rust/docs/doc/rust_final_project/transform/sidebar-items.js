@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["clean_and_validate_data","dataframe_to_transformed_movies","movies_to_dataframe","transform_movies"]};
